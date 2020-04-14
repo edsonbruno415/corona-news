@@ -16,8 +16,7 @@
     text-shadow: gray 1px 1px 2px;
     margin: 0;
 }
-
-.header .navbar-button{
+.navbar-button{
     position: fixed;
     top:0;
     left: 0;
@@ -29,6 +28,7 @@
     outline: none;
 }
 .navbar{
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -36,6 +36,12 @@
     width: 45%;
     background-color: rgba(97, 93, 93, 0.959);
     box-shadow:black 2px 2px 4px;
+}
+#btn:checked + .navbar{
+    display: block;
+}
+#btn{
+    display: none;
 }
 .navbar-list{
     list-style: none;
@@ -47,4 +53,30 @@
 .navbar-link{
     text-decoration: none;
     color:white;
+}
+
+@media screen and (min-width:800px){
+    .navbar-button{
+        display:none;
+    }
+    .navbar{
+        display: block;
+        position: relative;
+        width: 100%;
+        box-shadow: none;
+        background-color: gray;
+    }
+    .navbar-list{
+        margin: 0;
+        padding: 4px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-item{
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-link{
+        width: 100%;
+    }
 }
