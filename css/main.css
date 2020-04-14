@@ -2,15 +2,21 @@
     display: flex;
     justify-content: center;
     font-size: 1.36em;
+    background-color: gray;
+    padding-top: 2px;
+    padding-bottom: 6px;
 }
 .news-search span{
     color: #585556;
-    margin-right: 8px;
+    margin-right: 6px;
+    margin-left: 10px;
 }
 .news-search input{
     border-radius: 15px;
     padding: 6px;
     outline: none;
+    flex-grow: 1;
+    margin-right: 10px;
 }
 
 .news-item{
