@@ -52,6 +52,11 @@
     margin-top: 80px;
 }
 .navbar-item{
+    display: flex;
+}
+.navbar-item a{
+    width: 100%;
+    flex-grow: 1;
     padding: 8px;
 }
 .navbar-link{
