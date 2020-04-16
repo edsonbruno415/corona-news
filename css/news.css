@@ -71,6 +71,25 @@
     max-width: 100%;
 }
 
+.news-content .news-button{
+    display: flex;
+    background-color: #808080;
+    border: #585556 solid 1px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px;
+    margin-top: 16px;
+    width: 50%;
+}
+
+.news-content .news-button a{
+    color: white;
+    text-shadow: black 1px 1px 2px;
+    flex-grow: 1;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
 @media screen and (min-width:800px) {
     .news-search input{
         flex-grow: 0;
