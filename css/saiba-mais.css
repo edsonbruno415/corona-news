@@ -1,0 +1,13 @@
+.news-source{
+    padding: 16px;
+}
+.news-source h2{
+    color: #575355;
+}
+.news-source p a{
+    color:black;
+}
+
+.news-source p a:visited{
+    color: #29B9C2;
+}
