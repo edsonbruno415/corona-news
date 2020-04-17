@@ -7,27 +7,15 @@
     box-shadow: gray 1px 1px 2px;
 }
 
-.news-search button{
+.news-search span{
     color: white;
     margin-right: 6px;
     margin-left: 10px;
-    border: solid 2px #585556;
-    border-radius: 15px;
     outline: none;
-    background-color: gray;
     font-size: 20px;
     padding: 8px;
     margin-right: 10px;
-    transition: 0.7s;
-    cursor: pointer;
 }
-.news-search button:hover{
-    text-shadow: black 1px 1px 2px;
-    background-color:#585556;
-    box-shadow: gray 2px 2px 4px;
-    transition: 0.7s;
-}
-
 
 .news-search input {
     border-radius: 15px;
