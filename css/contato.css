@@ -17,6 +17,9 @@ input, textarea, button{
     padding: 12px;
     margin-bottom: 12px;
 }
+.form button{
+    cursor: pointer;
+}
 label{
     margin-bottom: 6px;
 }

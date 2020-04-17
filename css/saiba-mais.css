@@ -6,8 +6,10 @@
 }
 .news-source p a{
     color:black;
+    text-decoration: none;
 }
 
-.news-source p a:visited{
+.news-source p a:hover{
     color: #575355;
+    text-decoration: underline;
 }
