@@ -71,6 +71,10 @@
     max-width: 100%;
 }
 
+.news-content iframe{
+    width: 100%;
+    height: 480px;
+}
 .news-content .news-button{
     display: flex;
     background-color: #808080;
@@ -99,5 +103,8 @@
     .news-list{
         margin-right: 20%;
         margin-left: 20%;
+    }
+    .news-content img{
+        max-width: 80%;
     }
 }
